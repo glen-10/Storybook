@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Pagelight</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="library.html">Library</a>
+            <a href="about.html">About</a>
+            <button id="modeBtn">Dark Mode</button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Library</h2>
+            <input type="text" id="search" placeholder="Search title...">
+            <select id="genre">
+                <option value="">All Genres</option>
+                <option>Romance</option>
+                <option>Fantasy</option>
+                <option>Mystery</option>
+                <option>Horror</option>
+                <option>Sci-Fi</option>
+                <option>Adventure</option>
+                <option>Comedy</option>
+                <option>Drama</option>
+                <option>Thriller</option>
+                <option>Historical</option>
+            </select>
+        </section>
+        <section class="books" id="books">
+            <article class="card" data-genre="Romance">
+                <img src="images/story01_cover.svg" alt="Letters to Marisol cover">
+                <h3>Letters to Marisol</h3>
+                <p>Author: Ana Dela Cruz</p>
+                <p>Genre: Romance</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A girl finds love letters meant for someone else.</p>
+                <a href="story01.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Fantasy">
+                <img src="images/story02_cover.svg" alt="Crown of Ash cover">
+                <h3>Crown of Ash</h3>
+                <p>Author: R. K. Villanueva</p>
+                <p>Genre: Fantasy</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A fallen princess must relight the dragon flame.</p>
+                <a href="story02.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Mystery">
+                <img src="images/story03_cover.svg" alt="The Quiet Room cover">
+                <h3>The Quiet Room</h3>
+                <p>Author: Mia Santos</p>
+                <p>Genre: Mystery</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A school library hides a secret locked room.</p>
+                <a href="story03.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Horror">
+                <img src="images/story04_cover.svg" alt="Don't Answer cover">
+                <h3>Don't Answer</h3>
+                <p>Author: Paolo Reyes</p>
+                <p>Genre: Horror</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A phone keeps ringing from inside the walls.</p>
+                <a href="story04.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Sci-Fi">
+                <img src="images/story05_cover.svg" alt="Orbit Seven cover">
+                <h3>Orbit Seven</h3>
+                <p>Author: Dr. L. Aquino</p>
+                <p>Genre: Sci-Fi</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A lone engineer repairs a station that remembers her.</p>
+                <a href="story05.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Adventure">
+                <img src="images/story06_cover.svg" alt="The Lost Compass cover">
+                <h3>The Lost Compass</h3>
+                <p>Author: Jun Bautista</p>
+                <p>Genre: Adventure</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">Two siblings follow a map across an island.</p>
+                <a href="story06.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Comedy">
+                <img src="images/story07_cover.svg" alt="Class Clown Diaries cover">
+                <h3>Class Clown Diaries</h3>
+                <p>Author: Bea Lim</p>
+                <p>Genre: Comedy</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A prankster must behave to stay in the school play.</p>
+                <a href="story07.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Drama">
+                <img src="images/story08_cover.svg" alt="Seven Chairs cover">
+                <h3>Seven Chairs</h3>
+                <p>Author: Elena Mercado</p>
+                <p>Genre: Drama</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A family reunites around a table with one empty seat.</p>
+                <a href="story08.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Thriller">
+                <img src="images/story09_cover.svg" alt="Night Shift cover">
+                <h3>Night Shift</h3>
+                <p>Author: Carlo Ramos</p>
+                <p>Genre: Thriller</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A night guard watches a camera that shows tomorrow.</p>
+                <a href="story09.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Historical">
+                <img src="images/story10_cover.svg" alt="The Last Sultanate cover">
+                <h3>The Last Sultanate</h3>
+                <p>Author: Hadji Ali</p>
+                <p>Genre: Historical</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A young scribe records a kingdom's final days.</p>
+                <a href="story10.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Romance">
+                <img src="images/story11_cover.svg" alt="Coffee at Midnight cover">
+                <h3>Coffee at Midnight</h3>
+                <p>Author: Trixie Gomez</p>
+                <p>Genre: Romance</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">Two insomniacs keep meeting at the same cafe.</p>
+                <a href="story11.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Fantasy">
+                <img src="images/story12_cover.svg" alt="The Moonlit Gate cover">
+                <h3>The Moonlit Gate</h3>
+                <p>Author: S. T. Navarro</p>
+                <p>Genre: Fantasy</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A farm boy discovers a door only visible at night.</p>
+                <a href="story12.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Mystery">
+                <img src="images/story13_cover.svg" alt="Whispers in Pine Hollow cover">
+                <h3>Whispers in Pine Hollow</h3>
+                <p>Author: Gina Flores</p>
+                <p>Genre: Mystery</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A town's missing cat posters hide something bigger.</p>
+                <a href="story13.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Horror">
+                <img src="images/story14_cover.svg" alt="The Hallway Girl cover">
+                <h3>The Hallway Girl</h3>
+                <p>Author: Marco Tan</p>
+                <p>Genre: Horror</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A dorm resident meets a girl no one else sees.</p>
+                <a href="story14.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Sci-Fi">
+                <img src="images/story15_cover.svg" alt="Signal Lost cover">
+                <h3>Signal Lost</h3>
+                <p>Author: Iris Cabrera</p>
+                <p>Genre: Sci-Fi</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">Earth's last radio picks up a voice from the future.</p>
+                <a href="story15.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Adventure">
+                <img src="images/story16_cover.svg" alt="River of Gold cover">
+                <h3>River of Gold</h3>
+                <p>Author: Tomas Padilla</p>
+                <p>Genre: Adventure</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A guide leads tourists into a forgotten jungle river.</p>
+                <a href="story16.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Comedy">
+                <img src="images/story17_cover.svg" alt="Plan B Wedding cover">
+                <h3>Plan B Wedding</h3>
+                <p>Author: Kathy Ocampo</p>
+                <p>Genre: Comedy</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A wedding planner's disasters keep saving the day.</p>
+                <a href="story17.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Drama">
+                <img src="images/story18_cover.svg" alt="Paper Boats cover">
+                <h3>Paper Boats</h3>
+                <p>Author: Lourdes Tiu</p>
+                <p>Genre: Drama</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A girl sends paper boats to her father overseas.</p>
+                <a href="story18.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Thriller">
+                <img src="images/story19_cover.svg" alt="Dead Air cover">
+                <h3>Dead Air</h3>
+                <p>Author: Nico Salonga</p>
+                <p>Genre: Thriller</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A radio host hears her own confession on air.</p>
+                <a href="story19.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Historical">
+                <img src="images/story20_cover.svg" alt="The Bell of Balangiga cover">
+                <h3>The Bell of Balangiga</h3>
+                <p>Author: Rafael Dizon</p>
+                <p>Genre: Historical</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A boy hides a bell as soldiers arrive.</p>
+                <a href="story20.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Romance">
+                <img src="images/story21_cover.svg" alt="Seatmate cover">
+                <h3>Seatmate</h3>
+                <p>Author: Hannah Perez</p>
+                <p>Genre: Romance</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">Two rival students share a bus seat every day.</p>
+                <a href="story21.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Fantasy">
+                <img src="images/story22_cover.svg" alt="Dragon Tutor cover">
+                <h3>Dragon Tutor</h3>
+                <p>Author: Ysa Mendoza</p>
+                <p>Genre: Fantasy</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A student is assigned a dragon as her math tutor.</p>
+                <a href="story22.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Mystery">
+                <img src="images/story23_cover.svg" alt="The Locker Code cover">
+                <h3>The Locker Code</h3>
+                <p>Author: Dan Robles</p>
+                <p>Genre: Mystery</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A locker opens only with a code written in riddles.</p>
+                <a href="story23.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Horror">
+                <img src="images/story24_cover.svg" alt="Hollow Mirror cover">
+                <h3>Hollow Mirror</h3>
+                <p>Author: Celine Uy</p>
+                <p>Genre: Horror</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A thrift-store mirror shows a different bedroom.</p>
+                <a href="story24.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Sci-Fi">
+                <img src="images/story25_cover.svg" alt="Terraform cover">
+                <h3>Terraform</h3>
+                <p>Author: Eli Magsaysay</p>
+                <p>Genre: Sci-Fi</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">Colonists on Mars plant the first tree.</p>
+                <a href="story25.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Adventure">
+                <img src="images/story26_cover.svg" alt="Lost in Siargao cover">
+                <h3>Lost in Siargao</h3>
+                <p>Author: Jessa Co</p>
+                <p>Genre: Adventure</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A solo traveler takes the wrong boat and finds a hidden lagoon.</p>
+                <a href="story26.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Comedy">
+                <img src="images/story27_cover.svg" alt="Group Chat Gone Wrong cover">
+                <h3>Group Chat Gone Wrong</h3>
+                <p>Author: Kenzo Abad</p>
+                <p>Genre: Comedy</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A message to the wrong chat changes everything.</p>
+                <a href="story27.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Drama">
+                <img src="images/story28_cover.svg" alt="The Piano Teacher cover">
+                <h3>The Piano Teacher</h3>
+                <p>Author: Marites Ong</p>
+                <p>Genre: Drama</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A retired pianist tutors a boy who cannot hear.</p>
+                <a href="story28.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Thriller">
+                <img src="images/story29_cover.svg" alt="Fifty Floors Down cover">
+                <h3>Fifty Floors Down</h3>
+                <p>Author: Vince Alcantara</p>
+                <p>Genre: Thriller</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">An elevator stops at a floor that doesn't exist.</p>
+                <a href="story29.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Historical">
+                <img src="images/story30_cover.svg" alt="Letters from Intramuros cover">
+                <h3>Letters from Intramuros</h3>
+                <p>Author: Carmela Yap</p>
+                <p>Genre: Historical</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A diary found in old walls reveals a hidden romance.</p>
+                <a href="story30.html" class="readBtn">Read Story</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Pagelight Storybook - ITE 1 Project</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

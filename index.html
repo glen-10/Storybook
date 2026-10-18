@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Storybook</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="library.html">Library</a>
+            <a href="about.html">About</a>
+            <button id="modeBtn">Dark Mode</button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to Pagelight</h2>
+            <p>Read short one-chapter stories from 10 different genres.</p>
+            <a href="library.html" class="readBtn">Browse Library</a>
+        </section>
+        <section>
+            <h2>Featured Stories</h2>
+            <div class="books">
+            <article class="card" data-genre="Romance">
+                <img src="images/story01_cover.svg" alt="Letters to Marisol cover">
+                <h3>Letters to Marisol</h3>
+                <p>Author: Ana Dela Cruz</p>
+                <p>Genre: Romance</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A girl finds love letters meant for someone else.</p>
+                <a href="story01.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Fantasy">
+                <img src="images/story02_cover.svg" alt="Crown of Ash cover">
+                <h3>Crown of Ash</h3>
+                <p>Author: R. K. Villanueva</p>
+                <p>Genre: Fantasy</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A fallen princess must relight the dragon flame.</p>
+                <a href="story02.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Mystery">
+                <img src="images/story03_cover.svg" alt="The Quiet Room cover">
+                <h3>The Quiet Room</h3>
+                <p>Author: Mia Santos</p>
+                <p>Genre: Mystery</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A school library hides a secret locked room.</p>
+                <a href="story03.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Horror">
+                <img src="images/story04_cover.svg" alt="Don't Answer cover">
+                <h3>Don't Answer</h3>
+                <p>Author: Paolo Reyes</p>
+                <p>Genre: Horror</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A phone keeps ringing from inside the walls.</p>
+                <a href="story04.html" class="readBtn">Read Story</a>
+            </article>
+            <article class="card" data-genre="Sci-Fi">
+                <img src="images/story05_cover.svg" alt="Orbit Seven cover">
+                <h3>Orbit Seven</h3>
+                <p>Author: Dr. L. Aquino</p>
+                <p>Genre: Sci-Fi</p>
+                <button class="synBtn">Show Synopsis</button>
+                <p class="synopsis">A lone engineer repairs a station that remembers her.</p>
+                <a href="story05.html" class="readBtn">Read Story</a>
+            </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Pagelight Storybook - ITE 1 Project</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
